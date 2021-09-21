@@ -8,5 +8,3 @@ spec:
       image: index.docker.io/vanvoo/pacman:latest
       imagePullPolicy: Always
       command: [ "echo", "SUCCESS" ]
-  imagePullSecrets:
-    - name: myregistrykey
